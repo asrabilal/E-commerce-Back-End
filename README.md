@@ -35,7 +35,7 @@
   [HERE](https://github.com/asrabilal)
   
   ## Video
-  [Walkthroughvideolink]
+[Walk-through Video Link]
    
   
   ## Additional Info:
