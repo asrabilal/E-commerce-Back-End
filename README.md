@@ -8,7 +8,7 @@
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Questions](#questions)
-  - [Video](#Walk through Video Link)
+  - [Video](#Walk-throughVideoLink)
   - [Additional Info](#additional-info)
  
   ## Description:
