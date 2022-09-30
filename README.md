@@ -1,69 +1,40 @@
-# 09 Node.js: Professional README Generator
+# E-commerce Back End
+  ## Licensing:
+  [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
+  ## Table of Contents 
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Questions](#questions)
+  - [Video](#Walk through Video Link)
+  - [Additional Info](#additional-info)
+ 
+  ## Description:
+  we  build the back end for an e-commerce site. This application is a working back end server that can host an ecommerce website and the different requests that the owners and users would need to make from the server. It has routes for [CREATING, UPDATING, READING, DELETING]. There is no front end for the application built so the routes are going to be demonstrated in the walkthrough video. This project uses the following packages: 1.) dotenv: this package is used to store sensitive server information in a separate file that can be included in the .gitignore file when pushing the repo to Github. 2.)express.js: self explanitory. 3.) mysql2: is used for a part of this application
+  ## Installation:
+  The user should clone the repository from GitHub.
+  This application requires Node.js, Express.js, and Sequelize.
+  To connect to the database:
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+   - run mysql -u root -p and enter password from .env file.
+   - Then source the schema.sql.
+   - To seed the file run npm run seed.
+   - Finally to connect to the server run npm start.
+  ## Usage:
+  The app allows the user to view, add, edit, and delete categories, products, and tags.
+  ## License:
+  MIT
+  ## Contribution:
+  If you feel the need to contribute to this project, feel free to leave feedback in the Github repository, which will be linked below.
+  ## Testing:
+  We use the "INSOMNIA" application for testing purpose.
+  ## Questions
+  [HERE](https://github.com/asrabilal)
 
-You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
-
-The application will be invoked by using the following command:
-
-```
-node index.js
-```
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit 2.2.4: Screencastify Tutorial in Module 2 of the **prework** as a refresher on how to record video from your computer. You’ll need to submit a link to the video **and** add it to the README of your project.
-
-Before you start, clone the [starter code](https://github.com/coding-boot-camp/potential-enigma).
-
-## User Story
-
-```
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
-
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+   
+  
+  ## Additional Info:
+  - Github: [asrabilal](https://github.com/asrabilal)
+  - Email: asra596@gmail.com 
