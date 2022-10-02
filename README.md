@@ -35,7 +35,8 @@
   [HERE](https://github.com/asrabilal)
   
   ## Video
-[Walk-through Video Link](https://drive.google.com/file/d/1vhcYoT0T3A-F3H3ciNIgscfPdHux5WT5/view?usp=sharing)
+[Walk-through Video Link](https://drive.google.com/file/d/1vhcYoT0T3A-F3H3ciNIgscfPdHux5WT5/view?usp=sharing)<br>
+[Walk-through Video insomnia](https://drive.google.com/file/d/14rjIwewvRREGaaa4x7Fb9MnJ7OAYYpKK/view)
    
   
   ## Additional Info:
